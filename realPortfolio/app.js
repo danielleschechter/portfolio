@@ -60,7 +60,7 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 
 // INIT SERVER /////////////////////////////////////////////////////////////////
-app.set('port', process.env.PORT || 9090);
+app.set('port', process.env.PORT || 9999);
 var server = app.listen(app.get('port'), function () {
   console.info('Express server listening on port ' + server.address().port);
 });
